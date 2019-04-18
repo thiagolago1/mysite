@@ -9,4 +9,8 @@ const IconBars = () => (
     <Icon icon="bars" />
 )
 
-export { IconHome, IconBars }
+const IconSearch = () => (
+    <Icon icon="search-plus" />
+)
+
+export { IconHome, IconBars, IconSearch }

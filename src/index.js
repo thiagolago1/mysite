@@ -4,10 +4,11 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faHome, faBars } from '@fortawesome/free-solid-svg-icons';
+import { faHome, faBars, faSearchPlus } from '@fortawesome/free-solid-svg-icons';
 
 library.add(faHome)
 library.add(faBars)
+library.add(faSearchPlus)
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
