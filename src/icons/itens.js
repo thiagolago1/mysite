@@ -9,8 +9,29 @@ const IconBars = () => (
     <Icon icon="bars" />
 )
 
-const IconSearch = () => (
-    <Icon icon="search-plus" />
+const IconUser = () => (
+    <Icon icon="user-astronaut" />
 )
 
-export { IconHome, IconBars, IconSearch }
+const IconMenu = () => (
+    <Icon icon="th" />
+)
+
+const IconEmail = () => (
+    <Icon icon="envelope" />
+)
+
+const IconMarker = () => (
+    <Icon icon="map-marker-alt" />
+)
+
+const IconComment = () => (
+    <Icon icon="comment" />
+)
+
+const IconCode = () => (
+    <Icon icon="code" />
+)
+
+
+export { IconHome, IconBars, IconUser, IconMenu, IconEmail, IconMarker, IconComment, IconCode }

@@ -4,11 +4,16 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faHome, faBars, faSearchPlus } from '@fortawesome/free-solid-svg-icons';
+import { faHome, faBars, faUserAstronaut, faTh, faEnvelope, faMapMarkerAlt, faComment, faCode } from '@fortawesome/free-solid-svg-icons';
 
 library.add(faHome)
 library.add(faBars)
-library.add(faSearchPlus)
+library.add(faUserAstronaut)
+library.add(faTh)
+library.add(faEnvelope)
+library.add(faMapMarkerAlt)
+library.add(faComment)
+library.add(faCode)
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

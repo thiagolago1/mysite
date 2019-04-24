@@ -1,4 +1,7 @@
-.App {
-  /* text-align: center; */
-  background-color: #282c34;
+#mobile-demo > li:nth-child(1) > a > b {
+    color: aliceblue;
+}
+
+#mobile-demo > li:nth-child(1) > a > svg > path {
+    color: aliceblue;
 }

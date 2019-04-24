@@ -1,22 +1,27 @@
 import React, { Component } from 'react';
-import { IconBars, IconSearch } from '../icons/itens';
+import { IconUser, IconBars, IconMenu, IconEmail, IconMarker, IconComment, IconCode } from '../icons/itens';
 
 class Navbar extends Component {
   render() {
     return (
-      <div >
-       <nav>
-        <div className="nav-wrapper light-blue darken-4">
-            <a href="#!" className="brand-logo light-blue darken-4"><IconBars /> TL</a>
-            <ul className="right hide-on-med-and-down light-blue darken-4">
-                <li><a href="#!"><IconSearch /></a></li>
-                <li><a href="#!"><i className="material-icons">view_module</i></a></li>
-                <li><a href="#!"><i className="material-icons">refresh</i></a></li>
-                <li><a href="#!"><i className="material-icons">more_vert</i></a></li>
+      <div>
+      <nav>
+          <div className="nav-wrapper purple darken-4">
+              <a style={{fontSize: '2.1rem' }}>Thiago Lago <IconCode/> Developer Apprentice</a>
+              <a href="#!" data-target="mobile-demo" className="sidenav-trigger show-on-large"><IconBars/></a>
+              <ul className="right hide-on-med-and-down purple darken-4">
+                <li><a href="#!More"><IconMenu/> </a></li>
+                <li><a href="#!About"><IconUser /> </a></li>
             </ul>
-        </div>
-       </nav>
-      </div>
+          </div>
+      </nav>
+      <ul className="sidenav" id="mobile-demo" >
+          <li><a href="#!Me" className="purple darken-4" ><IconUser/><b> Thiago Lago</b></a></li>
+          <li><a href="#!Email"><IconEmail/> E-mail </a></li>
+          <li><a href="#!Local"><IconMarker/> Brasília - DF - Brasil</a></li>
+          <li><a href="#!Telegram"><IconComment/> Telegram </a></li>
+      </ul>
+  </div>
     );
   }
 }
