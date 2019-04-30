@@ -3,13 +3,13 @@ import React, { Component } from 'react';
 class CardSocialMedia extends Component {
   render() {
     return (
-      <div class="row">
+      <div className="row">
         <br/>
         <br/>
         <div className="row">
             <div className="col s12 m4 l2 ">
                 <div className="card purple darken-4">
-                    <div class="card-content white-text">
+                    <div className="card-content white-text">
                         <span className="card-title">Social Medias</span>
                         <div>
                         <a className="white-text" href="#!"><i className="fab fa-linkedin white-text"/> LinkedIn</a>

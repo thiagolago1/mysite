@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
-import Navbar from './components/Navbar'
-import CardSocialMedia from './components/CardSocialMedia'
+import Navbar from './components/Navbar';
+import CardSocialMedia from './components/CardSocialMedia';
+import Footer from './components/Footer';
 
 class App extends Component {
   render() {
@@ -10,6 +11,7 @@ class App extends Component {
 
           <Navbar />
           <CardSocialMedia />
+          <Footer />
 
       </div>
     );
