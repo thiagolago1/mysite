@@ -6,6 +6,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: currentColor;
+  /* background-image: url(imagens/codeimage.jpg); */
 }
 
 code {

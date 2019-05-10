@@ -1,72 +1,71 @@
 import React, { Component } from 'react';
-import CardAbout from './Cards/CardAbout';
-import CardSocialMedia from './Cards/CardSocialMedia';
+import { Button, Card, CardDeck } from 'react-bootstrap';
+import codeimage from '../imagens/codeimage.jpg'
 
 class Cards extends Component {
   render() {
     return (
 
-    <div className="row">
-        <br/>
-        <br/>
-      <div className="row">
+      <div>
+        <br />
+        <br />
+        <div >
 
-            <div className="col s12 m4">
-                <div className="card small purple darken-4">
-                    <div className="card-content white-text">
-                        <span className="card-title">Social Medias</span>
-                        <div>
-                        <a className="white-text" href="#!"><i className="fab fa-linkedin white-text"/> LinkedIn</a>
-                        </div>
-                        <div>
-                        <a className="white-text" href="#!"><i className="fab fa-github white-text"></i> GitHub</a>
-                        </div>
-                        <div>
-                        <a className="white-text" href="#!"><i className="fab fa-instagram white-text"></i> Instagram</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          <CardDeck>
 
+                <Card style={{ width: '18rem' }} className="card small purple darken-4 white-text">
+                <Card.Img variant="top"/>
+                <Card.Body>
+                    <Card.Title style={{fontSize: '-webkit-xxx-large'}}> Social Medias </Card.Title><br />
+                    <Card.Text>
+                      <div>
+                        <a className="white-text" href="#!" style={{fontSize: 'xx-large'}}><i className="fab fa-linkedin white-text" /> LinkedIn</a>
+                      </div>
+                      <div>
+                        <a className="white-text" href="#!" style={{fontSize: 'xx-large'}}><i className="fab fa-github white-text"></i> GitHub</a>
+                      </div>
+                      <div>
+                        <a className="white-text" href="#!" style={{fontSize: 'xx-large'}}><i className="fab fa-instagram white-text"></i> Instagram</a>
+                      </div>
+                </Card.Text>
 
-              <div class="col s12 m4">
-                <div class="card small">
-                  <div class="card-image">
-                    {/* <img src="images/sample-1.jpg"> */}
-                    <p> About Me</p>
-                    <span class="card-title">About Me</span>
-                  </div>
-                  <div class="card-content">
-                    <p>I am a very simple card. I am good at containing small bits of information.
-                    I am convenient because I require little markup to use effectively.</p>
-                  </div>
-                  <div class="card-action">
-                    <a href="#">LinkedIn</a>
-                  </div>
-                </div>
-              </div>
+                </Card.Body>
+                </Card>
 
+                <Card style={{ width: '18rem' }} className="card small purple darken-4 white-text">
+                  <Card.Img variant="top"/>
+                  <Card.Body>
+                    <Card.Title style={{fontSize: '-webkit-xxx-large'}}>About Me</Card.Title>
+                    <Card.Text>
+                      Some quick example text to build on the card title and make up the bulk of
+                      the card's content.Some quick example text to build on the card title and make up the bulk of
+                      the card's content.Some quick example text to build on the card title and make up the bulk of
+                      the card's content.Some quick example text to build on the card title and make up the bulk of
+                      the card's content.Some quick example text to build on the card title and make up the bulk of
+                      the card's content.Some quick example text to build on the card title and make up the bulk of
+                    </Card.Text>
+                    <Button variant="primary"><i className="fab fa-linkedin white-text" /> LinkedIn</Button>
+                  </Card.Body>
+                </Card>;
 
+                <Card style={{ width: '18rem' }} className="card small purple darken-4 white-text">
+                  <Card.Img variant="top" src={codeimage}/>
+                  <Card.Body>
+                    <Card.Title > Skills </Card.Title>
+                    <Card.Text>
+                    Some quick example text to build on the card title and make up the bulk of
+                  
+                    
+                    </Card.Text>
+                    <Button variant="primary"><i className="fab fa-github white-text"></i> GitHub</Button>
+                  </Card.Body>
+                </Card>;
+                
+     
+          </CardDeck>;
 
-              <div class="col s12 m4">
-                <div class="card small">
-                  <div class="card-image">
-                    {/* <img src="images/sample-1.jpg"> */}
-                    <p> Skills</p>
-                    <span class="card-title">Skills</span>
-                  </div>
-                  <div class="card-content">
-                    <p>I am a very simple card. I am good at containing small bits of information.
-                    I am convenient because I require little markup to use effectively.</p>
-                  </div>
-                  <div class="card-action">
-                    <a href="#">GitHub</a>
-                  </div>
-                </div>
-              </div>
-
+        </div>
       </div>
-    </div>
     );
   }
 }
