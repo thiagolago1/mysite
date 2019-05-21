@@ -11,9 +11,9 @@ class Cards extends Component {
         <br />
         <div >
 
-          <CardDeck>
+          <CardDeck style={{marginRight: 0, marginLeft: 0}}>
 
-                <Card style={{ width: '18rem' }} className="card small purple darken-4 white-text">
+                <Card style={{ width: '18rem', height: 450}} className="card small grey darken-4 white-text">
                 <Card.Img variant="top"/>
                 <Card.Body>
                     <Card.Title style={{fontSize: '-webkit-xxx-large'}}> Social Medias </Card.Title><br />
@@ -32,7 +32,7 @@ class Cards extends Component {
                 </Card.Body>
                 </Card>
 
-                <Card style={{ width: '18rem' }} className="card small purple darken-4 white-text">
+                <Card style={{ width: '18rem', height: 450 }} className="card small grey darken-4 white-text">
                   <Card.Img variant="top"/>
                   <Card.Body>
                     <Card.Title style={{fontSize: '-webkit-xxx-large'}}>About Me</Card.Title>
@@ -40,17 +40,25 @@ class Cards extends Component {
                       About Me About Me About Me About Me About Me About Me About Me About Me About Me
                       About Me About Me About Me About Me About Me About Me About Me About Me About Me
                       About Me About Me About Me About Me About Me About Me About Me About Me About Me
+                      About Me About Me About Me About Me About Me About Me About Me About Me About Me
+                      About Me About Me About Me About Me About Me About Me About Me About Me About Me
+                      About Me About Me About Me About Me About Em About Me About Me About Me About Me
+                      About Me About Me About Me About Me About Me About Me About Me About Me About Me
+                      About Me About Me About Me About Me About Me About Me About Me About Me About Me
+                      About Me About Me About Me About Me About Me About Me About Me About Me About Me
+                      About Me About Me About Me About Me About Me About Me About Me About Me About Me
+                      About Me About Me About Me About Me About Me About Me
                     </Card.Text>
                     <Button variant="primary"><i className="fab fa-linkedin white-text" /> LinkedIn</Button>
                   </Card.Body>
                 </Card>;
 
-                <Card style={{ width: '18rem' }} className="card small purple darken-4 white-text">
-                  <Card.Img variant="top" /*src={codeimage}*//>
+                <Card style={{ width: '18rem', height: 450 }} className="card small grey darken-4 white-text">
+                  <Card.Img variant="top" src={codeimage}/>
                   <Card.Body>
                     <Card.Title > Skills </Card.Title>
                     <Card.Text>
-                   JavaEE, Python, Django, ReactJS, AngularJS, Html, CSS, JavaScript
+                   Java, Python, Django, ReactJS, AngularJS, Html, CSS, JavaScript
 
                     </Card.Text>
                     <Button variant="primary"><i className="fab fa-github white-text"></i> GitHub</Button>
