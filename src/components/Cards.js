@@ -46,7 +46,7 @@ class Cards extends Component {
                 </Card>;
 
                 <Card style={{ width: '18rem' }} className="card small purple darken-4 white-text">
-                  <Card.Img variant="top" src={codeimage}/>
+                  <Card.Img variant="top" /*src={codeimage}*//>
                   <Card.Body>
                     <Card.Title > Skills </Card.Title>
                     <Card.Text>
