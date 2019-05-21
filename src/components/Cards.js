@@ -37,12 +37,9 @@ class Cards extends Component {
                   <Card.Body>
                     <Card.Title style={{fontSize: '-webkit-xxx-large'}}>About Me</Card.Title>
                     <Card.Text>
-                      Some quick example text to build on the card title and make up the bulk of
-                      the card's content.Some quick example text to build on the card title and make up the bulk of
-                      the card's content.Some quick example text to build on the card title and make up the bulk of
-                      the card's content.Some quick example text to build on the card title and make up the bulk of
-                      the card's content.Some quick example text to build on the card title and make up the bulk of
-                      the card's content.Some quick example text to build on the card title and make up the bulk of
+                      About Me About Me About Me About Me About Me About Me About Me About Me About Me
+                      About Me About Me About Me About Me About Me About Me About Me About Me About Me
+                      About Me About Me About Me About Me About Me About Me About Me About Me About Me
                     </Card.Text>
                     <Button variant="primary"><i className="fab fa-linkedin white-text" /> LinkedIn</Button>
                   </Card.Body>
@@ -53,15 +50,12 @@ class Cards extends Component {
                   <Card.Body>
                     <Card.Title > Skills </Card.Title>
                     <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                  
-                    
+                   JavaEE, Python, Django, ReactJS, AngularJS, Html, CSS, JavaScript
+
                     </Card.Text>
                     <Button variant="primary"><i className="fab fa-github white-text"></i> GitHub</Button>
                   </Card.Body>
                 </Card>;
-                
-     
           </CardDeck>;
 
         </div>

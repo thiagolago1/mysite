@@ -7,7 +7,7 @@ class Navbar extends Component {
       <div>
       <nav>
           <div className="nav-wrapper purple darken-4">
-              <a style={{fontSize: '2.1rem' }}>Thiago Lago <IconCode/> Developer Apprentice</a>
+              <a style={{fontSize: '2.1rem' }}>Thiago Lago <IconCode/> Developer </a>
               <a href="#!" data-target="mobile-demo" className="sidenav-trigger show-on-large"><IconBars/></a>
               <ul className="right hide-on-med-and-down purple darken-4">
                 <li><a href="#!More"><IconMenu/> </a></li>
