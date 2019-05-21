@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Navbar from './Navbar';
 import Cards from './Cards';
-import Footer from './Footer';
 
 class Page extends Component {
   render() {
@@ -10,7 +9,6 @@ class Page extends Component {
 
           <Navbar />
           <Cards />
-          <Footer />
 
       </div>
     );

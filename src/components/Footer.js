@@ -5,7 +5,7 @@ class Footer extends Component {
   render() {
     return (
       <div>
-      <footer className="page-footer deep-purple accent-3">
+      <footer className="page-footer deep-purple accent-3" style={{width: 1280 ,position: 'fixed', bottom: '0', left: '0'}}>
           <div className="container purple darken-4">
             {/* <div class="row">
               <div class="col l6 s12">
