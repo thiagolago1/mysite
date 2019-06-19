@@ -17,7 +17,7 @@ class Navbar extends Component {
       </nav>
       <ul className="sidenav" id="mobile-demo" >
           <li><a href="#!Me" className="purple darken-4" ><IconUser/><b> Thiago Lago</b></a></li>
-          <li><a href="#!Email"><IconEmail/> E-mail </a></li>
+          <li><a href="#!Email"><IconEmail/> thiagolagoo2@gmail.com </a></li>
           <li><a href="#!Local"><IconMarker/> Brasília - DF - Brasil</a></li>
           <li><a href="#!Telegram"><IconComment/> Telegram </a></li>
       </ul>

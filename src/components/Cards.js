@@ -36,18 +36,15 @@ class Cards extends Component {
                   <Card.Img variant="top"/>
                   <Card.Body>
                     <Card.Title style={{fontSize: '-webkit-xxx-large'}}>About Me</Card.Title>
-                    <Card.Text>
-                      About Me About Me About Me About Me About Me About Me About Me About Me About Me
-                      About Me About Me About Me About Me About Me About Me About Me About Me About Me
-                      About Me About Me About Me About Me About Me About Me About Me About Me About Me
-                      About Me About Me About Me About Me About Me About Me About Me About Me About Me
-                      About Me About Me About Me About Me About Me About Me About Me About Me About Me
-                      About Me About Me About Me About Me About Em About Me About Me About Me About Me
-                      About Me About Me About Me About Me About Me About Me About Me About Me About Me
-                      About Me About Me About Me About Me About Me About Me About Me About Me About Me
-                      About Me About Me About Me About Me About Me About Me About Me About Me About Me
-                      About Me About Me About Me About Me About Me About Me About Me About Me About Me
-                      About Me About Me About Me About Me About Me About Me
+                    <Card.Text style={{textAlign: 'justify'}}>
+                    <p style={{textAlign: 'justify', fontSize: 18}}>
+                      Welcome! <br/>
+
+                      My name is Thiago, I'm 24 years old and I'm an technology enthusiast.
+                      I am currently studying to become a full-stack developer.
+                      <br/>I have a degree in Business Administration and now I'm finishing my second year in Systems Analysis and Development. I have great interest in web programming, being one of the means that I like to study.
+                      <br/>I love music! in the off-hours play bass and counter-strike.
+                      </p>
                     </Card.Text>
                     <Button variant="primary"><i className="fab fa-linkedin white-text" /> LinkedIn</Button>
                   </Card.Body>
@@ -58,7 +55,7 @@ class Cards extends Component {
                   <Card.Body>
                     <Card.Title > Skills </Card.Title>
                     <Card.Text>
-                   Java, Python, Django, ReactJS, AngularJS, Html, CSS, JavaScript
+                   Java, Python, Django, ReactJS, Html, CSS, JavaScript
 
                     </Card.Text>
                     <Button variant="primary"><i className="fab fa-github white-text"></i> GitHub</Button>
